@@ -1,2 +1,72 @@
 # 52FeidianStudio.github.io
-Homepage of Feidian Studio
+
+Feidian Studio Homepage
+
+## 本仓库调制指南
+
+Github Page服务是以Jekyll为基础的。Jekyll是基于Ruby的一套博客系统。因此clone到本地调试时，需要安装Ruby环境和Jekyll模块：
+
+### Windows下安装环境
+
+1. 安装 Ruby
+2. 安装 DevKit
+3. 安装 Jekyll
+
+#### 安装 Ruby
+
+1、前往[Ruby官网](http://rubyinstaller.org/downloads/)，在 “RubyInstallers” 部分，下载相应的安装包；
+
+2、安装时注意：
+
+- 尽量还是使用默认路径，避免一些奇怪的错误。另外路径中避免空格；
+- 勾选 “Add Ruby executables to your PATH”，添加到环境变量；
+
+3、在命令行中执行``ruby -v``，若出现版本号即安装成功；
+
+#### 安装Devkit
+
+DevKit 是一个帮助简化安装及使用拓展的开发库，Windows环境中不可少。
+
+1、在[Ruby官网](http://rubyinstaller.org/downloads/)的DevKit部分，下载对应操作系统、对应Ruby版本的Devkit安装包。
+
+2、运行安装包。完成后进入DevKit目录，执行
+
+	ruby dk.rb init
+
+编辑生成的``config.yml``文件：在最后添加一行：
+
+	---
+	- /your/absolute/path/to/ruby
+
+然后在命令行中执行审查和安装：
+
+	ruby dk.rb review
+	ruby dk.rb install
+
+#### 安装Jekyll
+
+Jekyll是Ruby的一个模块，要通过Ruby的包管理器——gem进行安装。一般情况下，安装完以上后，gem已经自带了。
+
+执行：
+
+	gem install jekyll
+
+即完成Jekyll的安装。
+
+**以上过程可能因系统、版本等因素出现异常。如果出现异常，请尝试自己查阅资料解决，并完善本文档。**
+
+### Jekyll使用教程。
+
+在你希望的目录中执行
+
+	jekyll new yourblog
+
+创建博客目录。当然本仓库不需要这一步了。进入目录，执行：
+
+	jekyll server --watch
+	// server 指启动服务
+	// --watch指监听文件变化，自动应用；
+
+就可以启动服务。根据打印的提示，你可以在``http://localhost:4000``访问到页面。
+
+**关于Jekyll的具体配置和语法，待编辑...**
