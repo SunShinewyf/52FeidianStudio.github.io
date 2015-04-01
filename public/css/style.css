@@ -1,0 +1,16 @@
+body,html{font-family:"Microsoft Yahei";height:100%;}
+.g-wrap{margin:0 auto;width:960px;}
+header{border-top:20px solid #090909;}
+header .m-hd{position:relative;height:100px;border-bottom:2px solid #c0c0c0;}
+header .m-hd .logo{position:relative;float:left;padding-top:20px;}
+header .m-hd .logo h1{position:absolute;top:36px;left:70px;font-size:14px;color:#666;}
+header .m-hd .m-nav{display:block;float:right;height:50px;padding:30px 0 0 0;}
+header .m-hd .m-nav li{float:left;width:130px;height:50px;line-height:50px;font-size:30px;}
+header .m-hd .m-nav li a{width:130px;height:50px;color:#ff5f3e;font-weight:600;font-size:15px;}
+header .m-hd .m-nav li a:hover{color:#4a4a4a;}
+footer{width:100%;height:100px;background:#f0f0f0;border-top:1px solid #d5d5d5;box-shadow:0 -1px 2px rgba(2,2,2,0.3);}
+footer .m-ft{padding:32px 0 0 0;}
+footer .m-ft p{color:#999;}
+footer .m-ft p a{color:#999;}
+footer .m-ft p a:hover{color:#ff5f3e;}
+footer .m-ft p b{font-weight:normal;padding:0 3px;}
