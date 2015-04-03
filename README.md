@@ -70,3 +70,13 @@ Jekyll是Ruby的一个模块，要通过Ruby的包管理器——gem进行安装
 就可以启动服务。根据打印的提示，你可以在``http://localhost:4000``访问到页面。
 
 **关于Jekyll的具体配置和语法，待编辑...**
+
+## css预处理工具-MCSS的使用
+
+本站点的css部分使用了MCSS——出自网易前端牛人@leeluolee 之手的css预处理器。具体使用方式请移步：[leeluolee/mcss](https://github.com/leeluolee/mcss).
+
+由于GFW的存在，适用于Sublime的语法高亮插件无法下载。因此我已经下载后放在本仓库``/public/mcss/MCSS.tmLanguage``。
+
+安装方法：
+
+打开Sublime，preferences > Browses apckages，新建MCSS目录，将上述的语法文件拷贝进去即可。
