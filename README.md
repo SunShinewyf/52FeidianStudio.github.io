@@ -80,3 +80,5 @@ Jekyll是Ruby的一个模块，要通过Ruby的包管理器——gem进行安装
 安装方法：
 
 打开Sublime，preferences > Browses apckages，新建MCSS目录，将上述的语法文件拷贝进去即可。
+
+windows下推荐版本控制推荐使用sourceTree来代替命令行，图形界面使用起来很方便，适合新手更深入了解，可以很愉快的解决冲突。
